@@ -12,7 +12,9 @@ async function initDashboard() {
         const card = clone.querySelector('.service-card');
         
         // Service name and latest status
-        card.querySelector('.service-name').textContent = service.name;
+        const serviceLink = clone.querySelector('.service-link');
+        serviceLink.href = service.url;
+        serviceLink.textContent = service.name;
         const latest = service.history[service.history.length - 1];
         const indicator = card.querySelector('.status-indicator');
         indicator.classList.add(latest.status === 'up' ? 'up' : 'down');

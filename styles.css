@@ -97,12 +97,17 @@ body {
 }
 
 .service-card:hover {
-    transform: translateY(-.1rem);
+    transform: translateY(-.05rem);
 }
 
 .service-name {
     color: var(--text-color);
     margin: 0;
+}
+
+.service-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .service-card-header {
