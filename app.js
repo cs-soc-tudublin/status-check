@@ -1,5 +1,5 @@
 async function initDashboard() {
-    const response = await fetch('/public/status.json');
+    const response = await fetch('public/status.json');
     const data = await response.json();
     
     const container = document.getElementById('services-container');
