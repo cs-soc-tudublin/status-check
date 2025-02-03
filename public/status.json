@@ -1,0 +1,17 @@
+{
+  "services": [
+    {
+      "name": "cspp.ie",
+      "url": "https://cspp.ie",
+      "history": [
+        {
+          "timestamp": "2025-02-03T22:56:09.370Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-02-03T22:56:09.370Z"
+}

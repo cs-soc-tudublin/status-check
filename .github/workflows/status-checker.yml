@@ -1,0 +1,32 @@
+name: Status Checker
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Run daily at midday UTC
+  workflow_dispatch:  # Allow manual runs
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check services
+        run: |
+          node scripts/check-status.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add public/status.json
+          git commit -m "Update status data" || echo "No changes to commit"
+          git push
