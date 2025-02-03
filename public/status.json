@@ -9,9 +9,27 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2025-02-03T23:22:59.441Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
+        }
+      ]
+    },
+    {
+      "name": "Evil CS++ (redbrick)",
+      "url": "https://redbrick.dcu.ie/",
+      "history": [
+        {
+          "timestamp": "2025-02-03T23:22:59.617Z",
+          "status": "up",
+          "responseTime": 154,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-02-03T22:56:09.370Z"
+  "lastUpdated": "2025-02-03T23:22:59.617Z"
 }
