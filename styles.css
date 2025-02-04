@@ -188,7 +188,7 @@ a:hover {
 
 .history-bar {
     flex: 1;
-    background: #334155;
+    background: #3f5169;
     min-width: .1rem;
 }
 
@@ -213,7 +213,7 @@ a:hover {
 }
 
 .history-bar.empty:nth-child(2n) {
-    background: #3f5169;
+    background: #334155;
 }
 
 .history-info {
