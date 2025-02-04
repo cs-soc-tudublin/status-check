@@ -21,7 +21,7 @@ jobs:
 
       - name: Check services
         run: |
-          node scripts/check-status.js
+          node scripts/check-status.mjs
 
       - name: Commit and push
         run: |
