@@ -17,9 +17,12 @@ body {
     font-family: sans-serif;
 }
 
+a:hover {
+    color:  var(--accent-color);
+}
+
 .header {
     border-bottom: 1px solid var(--accent-color);
-    color: var(--accent-color);
     background-color: var(--header-bg);
 }
 
@@ -42,6 +45,7 @@ body {
     display: flex;
     align-content: baseline;
     margin: 0;
+    color: var(--accent-color);
 }
 
 .logo {
