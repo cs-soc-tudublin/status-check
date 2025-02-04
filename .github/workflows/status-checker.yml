@@ -2,7 +2,7 @@ name: Status Checker
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Run daily at midday UTC
+    - cron: '0 0 * * *'  # Run daily at midday UTC
   workflow_dispatch:  # Allow manual runs
 
 jobs:
