@@ -25,33 +25,38 @@ async function initDashboard() {
         card.querySelector('.response-time').textContent = 
             latest.responseTime ? `${latest.responseTime}ms` : '';
         
-            const timeline = card.querySelector('.history-timeline');
-            timeline.innerHTML = '';
-            
-            const now = new Date();
-            const days = Array.from({ length: 60 }, (_, i) => {
-                const day = new Date(now);
-                day.setDate(day.getDate() - (59 - i)); // Most recent first
-                day.setHours(0, 0, 0, 0);
-                return day;
-            });
-            
-            const checkMap = new Map();
-            service.history.forEach(check => {
-                const checkDay = new Date(check.timestamp);
-                checkDay.setHours(0, 0, 0, 0);
-                checkMap.set(checkDay.getTime(), check);
-            });
-            
-            days.forEach(day => {
-                const check = checkMap.get(day.getTime());
-                const bar = document.createElement('div');
-                bar.className = `history-bar ${check ? check.status : 'empty'}`;
-                
-                bar.title = `${formatDate(day)} - ${check ? check.status : 'no data'}`;
-                timeline.appendChild(bar);
-            });
+        const timeline = card.querySelector('.history-timeline');
+        timeline.innerHTML = '';
         
+        const now = new Date();
+        const days = Array.from({ length: 60 }, (_, i) => {
+            const day = new Date(now);
+            day.setDate(day.getDate() - (59 - i)); // Most recent first
+            day.setHours(0, 0, 0, 0);
+            return day;
+        });
+        
+        const checkMap = new Map();
+        service.history.forEach(check => {
+            const checkDay = new Date(check.timestamp);
+            checkDay.setHours(0, 0, 0, 0);
+            checkMap.set(checkDay.getTime(), check);
+        });
+        
+        days.forEach(day => {
+            const check = checkMap.get(day.getTime());
+            const bar = document.createElement('div');
+            bar.className = `history-bar ${check ? check.status : 'empty'}`;
+            
+            bar.title = `${formatDate(day)} - ${check ? check.status : 'No Data'}`;
+            timeline.appendChild(bar);
+        });
+
+        upDays = timeline.querySelectorAll('.up').length
+        downDays = timeline.querySelectorAll('.down').length
+        const percentage = card.querySelector('.history-percentage');
+        percentage.textContent = ((upDays / (upDays + downDays)) * 100).toFixed(0) + '%';
+
         container.appendChild(clone);
     });
 }

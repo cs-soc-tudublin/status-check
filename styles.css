@@ -172,12 +172,12 @@ a:hover {
     gap: .5rem;
 }
 
-.history-title {
-    margin: 0;
-    font-size: .8rem;
+.current-status {
     font-weight: bold;
-    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
+
 .history-timeline {
     display: flex;
     height: 30px;
@@ -216,16 +216,28 @@ a:hover {
     background: #3f5169;
 }
 
-.current-status-container {
+.history-info {
     display: flex;
-    gap: 1rem;
     align-items: center;
-    margin: 0.5rem 0;
+    justify-content: space-between;
 }
 
-.current-status {
+.history-info p {
+    margin: 0;
+    font-size: .8rem;
     font-weight: bold;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    opacity: 0.7;
+    width: 6.5em;
+}
+
+.history-start-time {
+    text-align: left;
+}
+
+.history-percentage {
+    text-align: center;
+}
+
+.history-end-time {
+    text-align: right;
 }
