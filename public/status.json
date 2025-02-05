@@ -31,6 +31,18 @@
       ]
     },
     {
+        "name": "docs.cspp.ie",
+        "url": "https://docs.cspp.ie",
+        "history": [
+          {
+            "timestamp": "2025-02-05T20:49:38.655Z",
+            "status": "down",
+            "responseTime": null,
+            "error": "Connection failed"
+          }
+        ]
+    },
+    {
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
@@ -55,5 +67,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-02-05T01:02:26.373Z"
+  "lastUpdated": "2025-02-05T20:49:38.804Z"
 }
