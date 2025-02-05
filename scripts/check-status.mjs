@@ -48,35 +48,35 @@ const updateStatus = () => {
       console.log('No existing status file, creating new one');
     }
 
-config.services.forEach(serviceConfig => {
-    const existingService = history.services.find(s => s.url === serviceConfig.url);
-    const checkResult = checkService(serviceConfig.url);
-    
-    const newEntry = {
-        timestamp: new Date().toISOString(),
-        ...checkResult
-    };
+    config.services.forEach(serviceConfig => {
+        const existingService = history.services.find(s => s.url === serviceConfig.url);
+        const checkResult = checkService(serviceConfig.url);
 
-    if (existingService) {
-        existingService.history = [...existingService.history, newEntry].slice(-MAX_HISTORY);
-    } else {
-        history.services.push({
-            name: serviceConfig.name,
-            url: serviceConfig.url,
-            history: [newEntry]
-        });
-    }
-});
+        const newEntry = {
+            timestamp: new Date().toISOString(),
+            ...checkResult
+        };
+
+        if (existingService) {
+            existingService.history = [...existingService.history, newEntry].slice(-MAX_HISTORY);
+        } else {
+            history.services.push({
+                name: serviceConfig.name,
+                url: serviceConfig.url,
+                history: [newEntry]
+            });
+        }
+    });
   
     history.lastUpdated = new Date().toISOString();
     try {
-      mkdirSync(resolve(__dirname, '../public'), { recursive: true });
-      writeFileSync(historyPath, JSON.stringify(history, null, 2));
-      console.log('Status updated successfully');
+        mkdirSync(resolve(__dirname, '../public'), { recursive: true });
+        writeFileSync(historyPath, JSON.stringify(history, null, 2));
+        console.log('Status updated successfully');
     } catch (error) {
-      console.error('Error writing status file:', error.message);
-      process.exit(1);
+        console.error('Error writing status file:', error.message);
+        process.exit(1);
     }
-  };
+};
 
 updateStatus();
