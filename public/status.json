@@ -21,6 +21,12 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2025-02-05T01:02:21.136Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
         }
       ]
     },
@@ -39,9 +45,15 @@
           "status": "up",
           "responseTime": 4948,
           "error": null
+        },
+        {
+          "timestamp": "2025-02-05T01:02:26.373Z",
+          "status": "up",
+          "responseTime": 5228,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-02-04T11:26:25.426Z"
+  "lastUpdated": "2025-02-05T01:02:26.373Z"
 }
