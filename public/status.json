@@ -27,20 +27,32 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2025-02-06T01:02:39.462Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
         }
       ]
     },
     {
-        "name": "docs.cspp.ie",
-        "url": "https://docs.cspp.ie",
-        "history": [
-          {
-            "timestamp": "2025-02-05T20:49:38.655Z",
-            "status": "down",
-            "responseTime": null,
-            "error": "Connection failed"
-          }
-        ]
+      "name": "docs.cspp.ie",
+      "url": "https://docs.cspp.ie",
+      "history": [
+        {
+          "timestamp": "2025-02-05T20:49:38.655Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
+        },
+        {
+          "timestamp": "2025-02-06T01:02:40.278Z",
+          "status": "up",
+          "responseTime": 805,
+          "error": null
+        }
+      ]
     },
     {
       "name": "Evil CS++ (redbrick.dcu.ie)",
@@ -63,9 +75,15 @@
           "status": "up",
           "responseTime": 5228,
           "error": null
+        },
+        {
+          "timestamp": "2025-02-06T01:02:45.177Z",
+          "status": "up",
+          "responseTime": 4890,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-02-05T20:49:38.804Z"
+  "lastUpdated": "2025-02-06T01:02:45.177Z"
 }
