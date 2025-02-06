@@ -51,6 +51,7 @@ const updateStatus = () => {
     config.services.forEach(serviceConfig => {
         const existingService = history.services.find(s => s.url === serviceConfig.url);
         const checkResult = checkService(serviceConfig.url);
+        console.log(`${serviceConfig.url} returned ${checkResult.status.toUpperCase()} in (${checkResult.responseTime} ms)`);
 
         const newEntry = {
             timestamp: new Date().toISOString(),
