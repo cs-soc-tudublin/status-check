@@ -58,7 +58,19 @@ const updateStatus = () => {
         };
 
         if (existingService) {
-            existingService.history = [...existingService.history, newEntry].slice(-MAX_HISTORY);
+            let uniqueValues = new Map();
+            existingService.history.forEach(entry => {
+                if (uniqueValues.has(entry.timestamp.slice(0,10))) {
+                    console.log(`Removing duplicate entry for ${serviceConfig.name} on ${entry.timestamp.slice(0,10)}`);
+                }
+                uniqueValues.set(entry.timestamp.slice(0,10), entry);
+            });
+            uniqueValues.set(newEntry.timestamp.slice(0,10), newEntry);
+
+            if (uniqueValues.size > MAX_HISTORY) {
+                console.log(`More than ${MAX_HISTORY} entries for ${serviceConfig.name}, removing oldest entries`);
+            }
+            existingService.history = [...uniqueValues.values()].slice(-MAX_HISTORY);
         } else {
             history.services.push({
                 name: serviceConfig.name,
