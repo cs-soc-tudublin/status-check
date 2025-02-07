@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2025-02-03T22:56:09.370Z",
-          "status": "down",
-          "responseTime": null,
-          "error": "Connection failed"
-        },
-        {
           "timestamp": "2025-02-03T23:22:59.441Z",
           "status": "down",
           "responseTime": null,
@@ -33,6 +27,12 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2025-02-07T01:02:49.559Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
         }
       ]
     },
@@ -50,6 +50,12 @@
           "timestamp": "2025-02-06T01:02:40.278Z",
           "status": "up",
           "responseTime": 805,
+          "error": null
+        },
+        {
+          "timestamp": "2025-02-07T01:02:49.823Z",
+          "status": "up",
+          "responseTime": 254,
           "error": null
         }
       ]
@@ -81,9 +87,15 @@
           "status": "up",
           "responseTime": 4890,
           "error": null
+        },
+        {
+          "timestamp": "2025-02-07T01:02:54.559Z",
+          "status": "up",
+          "responseTime": 4727,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-02-06T01:02:45.177Z"
+  "lastUpdated": "2025-02-07T01:02:54.559Z"
 }
