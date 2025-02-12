@@ -57,6 +57,12 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2025-02-12T01:02:29.553Z",
+          "status": "up",
+          "responseTime": 761,
+          "error": null
         }
       ]
     },
@@ -104,6 +110,12 @@
           "timestamp": "2025-02-11T01:02:20.833Z",
           "status": "up",
           "responseTime": 306,
+          "error": null
+        },
+        {
+          "timestamp": "2025-02-12T01:02:29.929Z",
+          "status": "up",
+          "responseTime": 366,
           "error": null
         }
       ]
@@ -165,9 +177,15 @@
           "status": "up",
           "responseTime": 8681,
           "error": null
+        },
+        {
+          "timestamp": "2025-02-12T01:02:39.708Z",
+          "status": "up",
+          "responseTime": 9769,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-02-11T01:02:29.524Z"
+  "lastUpdated": "2025-02-12T01:02:39.708Z"
 }
