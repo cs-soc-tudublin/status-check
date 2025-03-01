@@ -159,6 +159,12 @@
           "status": "up",
           "responseTime": 440,
           "error": null
+        },
+        {
+          "timestamp": "2025-03-01T01:09:17.564Z",
+          "status": "up",
+          "responseTime": 396,
+          "error": null
         }
       ]
     },
@@ -308,6 +314,12 @@
           "timestamp": "2025-02-28T01:04:43.572Z",
           "status": "up",
           "responseTime": 241,
+          "error": null
+        },
+        {
+          "timestamp": "2025-03-01T01:09:17.750Z",
+          "status": "up",
+          "responseTime": 176,
           "error": null
         }
       ]
@@ -471,9 +483,15 @@
           "status": "up",
           "responseTime": 4822,
           "error": null
+        },
+        {
+          "timestamp": "2025-03-01T01:09:18.655Z",
+          "status": "up",
+          "responseTime": 895,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-02-28T01:04:48.404Z"
+  "lastUpdated": "2025-03-01T01:09:18.655Z"
 }
