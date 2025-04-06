@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2025-02-05T01:02:21.136Z",
-          "status": "down",
-          "responseTime": null,
-          "error": "Connection failed"
-        },
-        {
           "timestamp": "2025-02-06T01:02:39.462Z",
           "status": "down",
           "responseTime": null,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 641,
           "error": null
+        },
+        {
+          "timestamp": "2025-04-06T01:12:10.247Z",
+          "status": "up",
+          "responseTime": 658,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2025-02-05T20:49:38.655Z",
-          "status": "down",
-          "responseTime": null,
-          "error": "Connection failed"
-        },
         {
           "timestamp": "2025-02-06T01:02:40.278Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 281,
           "error": null
+        },
+        {
+          "timestamp": "2025-04-06T01:12:10.676Z",
+          "status": "up",
+          "responseTime": 419,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2025-02-05T01:02:26.373Z",
-          "status": "up",
-          "responseTime": 5228,
-          "error": null
-        },
         {
           "timestamp": "2025-02-06T01:02:45.177Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 9764,
           "error": null
+        },
+        {
+          "timestamp": "2025-04-06T01:12:18.794Z",
+          "status": "up",
+          "responseTime": 8109,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-04-05T01:06:40.296Z"
+  "lastUpdated": "2025-04-06T01:12:18.795Z"
 }
