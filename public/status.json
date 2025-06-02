@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2025-04-03T01:07:51.260Z",
-          "status": "up",
-          "responseTime": 509,
-          "error": null
-        },
-        {
           "timestamp": "2025-04-04T01:07:33.008Z",
           "status": "up",
           "responseTime": 397,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 581,
           "error": null
+        },
+        {
+          "timestamp": "2025-06-02T01:16:15.167Z",
+          "status": "up",
+          "responseTime": 605,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2025-04-03T01:07:51.554Z",
-          "status": "up",
-          "responseTime": 283,
-          "error": null
-        },
         {
           "timestamp": "2025-04-04T01:07:33.217Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 296,
           "error": null
+        },
+        {
+          "timestamp": "2025-06-02T01:16:15.355Z",
+          "status": "up",
+          "responseTime": 179,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2025-04-03T01:07:56.587Z",
-          "status": "up",
-          "responseTime": 5023,
-          "error": null
-        },
         {
           "timestamp": "2025-04-04T01:07:34.134Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 5216,
           "error": null
+        },
+        {
+          "timestamp": "2025-06-02T01:16:20.517Z",
+          "status": "up",
+          "responseTime": 5154,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-06-01T01:26:22.886Z"
+  "lastUpdated": "2025-06-02T01:16:20.518Z"
 }
