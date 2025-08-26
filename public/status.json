@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2025-06-27T01:15:27.490Z",
-          "status": "up",
-          "responseTime": 493,
-          "error": null
-        },
-        {
           "timestamp": "2025-06-28T01:12:50.025Z",
           "status": "up",
           "responseTime": 490,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 686,
           "error": null
+        },
+        {
+          "timestamp": "2025-08-26T01:11:37.360Z",
+          "status": "up",
+          "responseTime": 654,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2025-06-27T01:15:27.740Z",
-          "status": "up",
-          "responseTime": 240,
-          "error": null
-        },
         {
           "timestamp": "2025-06-28T01:12:50.341Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 231,
           "error": null
+        },
+        {
+          "timestamp": "2025-08-26T01:11:38.199Z",
+          "status": "up",
+          "responseTime": 830,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2025-06-27T01:15:32.454Z",
-          "status": "up",
-          "responseTime": 4704,
-          "error": null
-        },
         {
           "timestamp": "2025-06-28T01:12:58.930Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2025-08-26T01:11:53.213Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
         }
       ]
     }
   ],
-  "lastUpdated": "2025-08-25T01:13:40.392Z"
+  "lastUpdated": "2025-08-26T01:11:53.213Z"
 }
