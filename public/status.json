@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2025-07-30T01:21:01.138Z",
-          "status": "up",
-          "responseTime": 434,
-          "error": null
-        },
-        {
           "timestamp": "2025-07-31T01:20:48.063Z",
           "status": "down",
           "responseTime": null,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 508,
           "error": null
+        },
+        {
+          "timestamp": "2025-09-28T01:13:59.054Z",
+          "status": "up",
+          "responseTime": 464,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2025-07-30T01:21:01.413Z",
-          "status": "up",
-          "responseTime": 266,
-          "error": null
-        },
         {
           "timestamp": "2025-07-31T01:20:48.441Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 138,
           "error": null
+        },
+        {
+          "timestamp": "2025-09-28T01:13:59.335Z",
+          "status": "up",
+          "responseTime": 273,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2025-07-30T01:21:09.821Z",
-          "status": "up",
-          "responseTime": 8399,
-          "error": null
-        },
         {
           "timestamp": "2025-07-31T01:20:53.476Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 5122,
           "error": null
+        },
+        {
+          "timestamp": "2025-09-28T01:14:08.831Z",
+          "status": "up",
+          "responseTime": 9487,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2025-09-27T01:04:32.556Z"
+  "lastUpdated": "2025-09-28T01:14:08.831Z"
 }
