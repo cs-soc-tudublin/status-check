@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2025-12-29T01:23:15.998Z",
-          "status": "up",
-          "responseTime": 490,
-          "error": null
-        },
-        {
           "timestamp": "2025-12-30T01:17:35.956Z",
           "status": "up",
           "responseTime": 588,
@@ -363,6 +357,12 @@
           "status": "down",
           "responseTime": 355,
           "error": null
+        },
+        {
+          "timestamp": "2026-02-27T01:43:25.155Z",
+          "status": "down",
+          "responseTime": 351,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2025-12-29T01:23:16.260Z",
-          "status": "up",
-          "responseTime": 254,
-          "error": null
-        },
         {
           "timestamp": "2025-12-30T01:17:36.212Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 348,
           "error": null
+        },
+        {
+          "timestamp": "2026-02-27T01:43:25.272Z",
+          "status": "up",
+          "responseTime": 108,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2025-12-29T01:23:17.041Z",
-          "status": "up",
-          "responseTime": 773,
-          "error": null
-        },
         {
           "timestamp": "2025-12-30T01:17:37.228Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 5122,
           "error": null
+        },
+        {
+          "timestamp": "2026-02-27T01:43:29.357Z",
+          "status": "up",
+          "responseTime": 4076,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2026-02-26T01:44:41.766Z"
+  "lastUpdated": "2026-02-27T01:43:29.358Z"
 }
