@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2026-03-13T01:44:34.888Z",
-          "status": "up",
-          "responseTime": 335,
-          "error": null
-        },
-        {
           "timestamp": "2026-03-14T01:42:28.327Z",
           "status": "up",
           "responseTime": 432,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 548,
           "error": null
+        },
+        {
+          "timestamp": "2026-05-12T02:34:45.556Z",
+          "status": "up",
+          "responseTime": 428,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2026-03-13T01:44:35.147Z",
-          "status": "up",
-          "responseTime": 248,
-          "error": null
-        },
         {
           "timestamp": "2026-03-14T01:42:28.554Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 397,
           "error": null
+        },
+        {
+          "timestamp": "2026-05-12T02:34:45.817Z",
+          "status": "up",
+          "responseTime": 252,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2026-03-13T01:44:35.830Z",
-          "status": "up",
-          "responseTime": 673,
-          "error": null
-        },
         {
           "timestamp": "2026-03-14T01:42:29.320Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2026-05-12T02:35:00.833Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-05-11T02:42:09.471Z"
+  "lastUpdated": "2026-05-12T02:35:00.833Z"
 }
