@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2026-05-11T02:41:54.049Z",
-          "status": "up",
-          "responseTime": 548,
-          "error": null
-        },
-        {
           "timestamp": "2026-05-12T02:34:45.556Z",
           "status": "up",
           "responseTime": 428,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 386,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-10T02:31:50.268Z",
+          "status": "up",
+          "responseTime": 454,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2026-05-11T02:41:54.455Z",
-          "status": "up",
-          "responseTime": 397,
-          "error": null
-        },
         {
           "timestamp": "2026-05-12T02:34:45.817Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 290,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-10T02:31:50.504Z",
+          "status": "up",
+          "responseTime": 225,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2026-05-11T02:42:09.471Z",
-          "status": "down",
-          "responseTime": null,
-          "error": "Connection failed"
-        },
         {
           "timestamp": "2026-05-12T02:35:00.833Z",
           "status": "down",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 696,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-10T02:31:51.534Z",
+          "status": "up",
+          "responseTime": 1019,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2026-07-09T02:29:47.223Z"
+  "lastUpdated": "2026-07-10T02:31:51.534Z"
 }
