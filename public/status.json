@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2026-05-18T02:50:01.167Z",
-          "status": "up",
-          "responseTime": 388,
-          "error": null
-        },
-        {
           "timestamp": "2026-05-19T02:47:10.063Z",
           "status": "up",
           "responseTime": 393,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 687,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-17T02:09:57.791Z",
+          "status": "up",
+          "responseTime": 356,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2026-05-18T02:50:01.379Z",
-          "status": "up",
-          "responseTime": 202,
-          "error": null
-        },
         {
           "timestamp": "2026-05-19T02:47:10.539Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 205,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-17T02:09:58.033Z",
+          "status": "up",
+          "responseTime": 232,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2026-05-18T02:50:01.628Z",
-          "status": "down",
-          "responseTime": null,
-          "error": "Connection failed"
-        },
         {
           "timestamp": "2026-05-19T02:47:25.555Z",
           "status": "down",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 713,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-17T02:09:58.802Z",
+          "status": "up",
+          "responseTime": 759,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2026-07-16T02:06:59.839Z"
+  "lastUpdated": "2026-07-17T02:09:58.802Z"
 }
