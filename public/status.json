@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2026-05-22T02:50:57.749Z",
-          "status": "up",
-          "responseTime": 470,
-          "error": null
-        },
-        {
           "timestamp": "2026-05-23T02:35:49.898Z",
           "status": "up",
           "responseTime": 528,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 460,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-21T02:09:29.372Z",
+          "status": "up",
+          "responseTime": 697,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2026-05-22T02:50:58.002Z",
-          "status": "up",
-          "responseTime": 245,
-          "error": null
-        },
         {
           "timestamp": "2026-05-23T02:35:50.006Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 255,
           "error": null
+        },
+        {
+          "timestamp": "2026-07-21T02:09:29.746Z",
+          "status": "up",
+          "responseTime": 364,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2026-05-22T02:51:03.110Z",
-          "status": "up",
-          "responseTime": 5100,
-          "error": null
-        },
         {
           "timestamp": "2026-05-23T02:35:50.731Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2026-07-21T02:09:44.762Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-07-20T02:31:26.623Z"
+  "lastUpdated": "2026-07-21T02:09:44.762Z"
 }
