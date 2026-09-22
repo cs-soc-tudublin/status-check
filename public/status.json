@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2026-07-24T02:10:44.427Z",
-          "status": "up",
-          "responseTime": 434,
-          "error": null
-        },
-        {
           "timestamp": "2026-07-25T02:09:52.424Z",
           "status": "up",
           "responseTime": 627,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 734,
           "error": null
+        },
+        {
+          "timestamp": "2026-09-22T02:58:19.018Z",
+          "status": "up",
+          "responseTime": 711,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2026-07-24T02:10:44.548Z",
-          "status": "up",
-          "responseTime": 111,
-          "error": null
-        },
         {
           "timestamp": "2026-07-25T02:09:52.804Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 373,
           "error": null
+        },
+        {
+          "timestamp": "2026-09-22T02:58:19.298Z",
+          "status": "up",
+          "responseTime": 271,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2026-07-24T02:10:45.363Z",
-          "status": "up",
-          "responseTime": 805,
-          "error": null
-        },
         {
           "timestamp": "2026-07-25T02:09:54.202Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 970,
           "error": null
+        },
+        {
+          "timestamp": "2026-09-22T02:58:20.243Z",
+          "status": "up",
+          "responseTime": 938,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2026-09-21T02:58:06.903Z"
+  "lastUpdated": "2026-09-22T02:58:20.244Z"
 }
