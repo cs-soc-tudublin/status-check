@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2026-09-10T02:45:15.723Z",
-          "status": "up",
-          "responseTime": 626,
-          "error": null
-        },
-        {
           "timestamp": "2026-09-11T02:38:20.302Z",
           "status": "up",
           "responseTime": 878,
@@ -363,6 +357,12 @@
           "status": "down",
           "responseTime": null,
           "error": "Connection failed"
+        },
+        {
+          "timestamp": "2026-11-09T04:15:30.986Z",
+          "status": "up",
+          "responseTime": 681,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2026-09-10T02:45:15.991Z",
-          "status": "up",
-          "responseTime": 258,
-          "error": null
-        },
         {
           "timestamp": "2026-09-11T02:38:20.799Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 480,
           "error": null
+        },
+        {
+          "timestamp": "2026-11-09T04:15:31.234Z",
+          "status": "up",
+          "responseTime": 240,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2026-09-10T02:45:21.252Z",
-          "status": "up",
-          "responseTime": 5251,
-          "error": null
-        },
         {
           "timestamp": "2026-09-11T02:38:25.962Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 742,
           "error": null
+        },
+        {
+          "timestamp": "2026-11-09T04:15:32.239Z",
+          "status": "up",
+          "responseTime": 996,
+          "error": null
         }
       ]
     }
   ],
-  "lastUpdated": "2026-11-08T03:59:34.083Z"
+  "lastUpdated": "2026-11-09T04:15:32.239Z"
 }
