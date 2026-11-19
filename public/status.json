@@ -5,12 +5,6 @@
       "url": "https://cspp.ie",
       "history": [
         {
-          "timestamp": "2026-09-20T03:00:31.592Z",
-          "status": "up",
-          "responseTime": 525,
-          "error": null
-        },
-        {
           "timestamp": "2026-09-21T02:58:05.543Z",
           "status": "up",
           "responseTime": 734,
@@ -363,6 +357,12 @@
           "status": "up",
           "responseTime": 446,
           "error": null
+        },
+        {
+          "timestamp": "2026-11-19T05:37:47.638Z",
+          "status": "up",
+          "responseTime": 695,
+          "error": null
         }
       ]
     },
@@ -370,12 +370,6 @@
       "name": "docs.cspp.ie",
       "url": "https://docs.cspp.ie",
       "history": [
-        {
-          "timestamp": "2026-09-20T03:00:31.913Z",
-          "status": "up",
-          "responseTime": 311,
-          "error": null
-        },
         {
           "timestamp": "2026-09-21T02:58:05.924Z",
           "status": "up",
@@ -729,6 +723,12 @@
           "status": "up",
           "responseTime": 248,
           "error": null
+        },
+        {
+          "timestamp": "2026-11-19T05:37:48.027Z",
+          "status": "up",
+          "responseTime": 380,
+          "error": null
         }
       ]
     },
@@ -736,12 +736,6 @@
       "name": "Evil CS++ (redbrick.dcu.ie)",
       "url": "https://redbrick.dcu.ie/",
       "history": [
-        {
-          "timestamp": "2026-09-20T03:00:32.897Z",
-          "status": "up",
-          "responseTime": 975,
-          "error": null
-        },
         {
           "timestamp": "2026-09-21T02:58:06.903Z",
           "status": "up",
@@ -1095,9 +1089,15 @@
           "status": "up",
           "responseTime": 674,
           "error": null
+        },
+        {
+          "timestamp": "2026-11-19T05:37:48.697Z",
+          "status": "down",
+          "responseTime": null,
+          "error": "Connection failed"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-11-18T05:39:17.262Z"
+  "lastUpdated": "2026-11-19T05:37:48.697Z"
 }
